@@ -1,20 +1,25 @@
 pipeline {
-  agent {
-    node {
-    }
-  }
+
+  agent any
+
   parameters {
     booleanParam(name: "RUN_INTEGRATION_TESTS", defaultValue: true)
   }
+
   stages {
-    stage('Unit Tests') {
-      steps {
-        ./mvnw test -D testGroups=unit
+    parallel {
+      stage('Unit Tests') {
+        steps {
+          sh './mvnw test -D testGroups=unit'
+        }
       }
-    }
-    stage('Integration Tests') {
-      steps {
-        ./mvnw test -D
+      stage('Integration Tests') {
+        when {
+          expression { return params.RUN_INTEGRATION_TESTS }
+        } 
+        steps {
+          sh './mvnw test -D testGroups=integration'
+        }
       }
     }
   }
