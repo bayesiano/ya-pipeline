@@ -1,0 +1,12 @@
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/CatalogStorage.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/cart/CartService.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/Catalog.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/cart/AddToCartCommand.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/cart/ProductNotInCartException.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/CatalogService.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/ProductNotFoundInCatalogException.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/cart/CartView.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/persistence/InMemoryCatalogStorage.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/cart/CartItem.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/catalog/Product.java
+/home/middleware/var/DO400/ya-pipeline/src/main/java/com/redhat/shopping/ShoppingCartResource.java

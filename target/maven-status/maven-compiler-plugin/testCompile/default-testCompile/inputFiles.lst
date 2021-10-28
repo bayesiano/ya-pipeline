@@ -1,0 +1,5 @@
+/home/middleware/var/DO400/ya-pipeline/src/test/java/com/redhat/shopping/unit/ProductMother.java
+/home/middleware/var/DO400/ya-pipeline/src/test/java/com/redhat/shopping/integration/blackbox/ShoppingCartTest.java
+/home/middleware/var/DO400/ya-pipeline/src/test/java/com/redhat/shopping/unit/cart/CartServiceTest.java
+/home/middleware/var/DO400/ya-pipeline/src/test/java/com/redhat/shopping/integration/whitebox/ShoppingCartTest.java
+/home/middleware/var/DO400/ya-pipeline/src/test/java/com/redhat/shopping/unit/catalog/CatalogServiceTest.java
